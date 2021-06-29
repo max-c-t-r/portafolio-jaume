@@ -1,7 +1,6 @@
 .card-comment{
     text-align: center;
     background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(40px);
     margin-block-start: 40px;
     margin-block-end: 80px;
     padding: 24px;
