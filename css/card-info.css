@@ -1,0 +1,25 @@
+.card-info{
+    display: block;
+    text-align: center;
+    padding-block-start: 40px;
+    padding-block-end: 40px;    
+}
+
+.card-info p{
+    font: var(--headline5);
+}
+.card-info p:first-child{
+    font: var(--message);
+}
+
+@media screen and (min-width: 768px){
+    .card-info{
+        padding-block-start: 200px;
+        padding-block-end: 200px;
+        padding-inline-start: 215px;
+        padding-inline-end: 215px;
+    }
+    .card-info p:first-child{
+        font-size: 34px;
+    }
+}
